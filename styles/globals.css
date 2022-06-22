@@ -1,0 +1,331 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@100,200;400;700");
+body {
+  background: #f9fbfc;
+  height: 100%;
+  width: 100vw;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: white;
+  font-family: Poppins, sans-serif;
+  padding-bottom: 0;
+  padding-top: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 20vh;
+  background: linear-gradient( rgba(199, 10, 10, 1) 0%, rgba(0, 0, 0, 1) 100%)
+}
+h3 {
+  padding: 0;
+  margin-top: 10%;
+  padding-inline: 10vw;
+  font-weight: 700;
+  font-size: 4vh;
+  color: #efefef;
+  margin: 0;
+  margin-top: 10%;
+}
+h2 {
+  padding: 0;
+  margin-top: 10%;
+  font-weight: 700;
+  font-size: 3vh;
+  color: #efefef;
+  margin: 0;
+}
+ .tabs {
+  margin: 30px 0;
+}
+@media (max-width: 768px) {
+   .tabs {
+    margin: 0;
+    margin-inline-start: -10%;
+  }
+}
+ .tabs ul {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  background-color: #FFAAAA15;
+  width: 110vw;
+  /* margin: 1rem 0; */
+}
+ .tabs ul li {
+  display: block;
+  transition: ease all 0.3s;
+  color: #aaa;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 2vh;
+}
+ .products-wrapper {
+  width: calc(100% + 40px);
+  width: 100%;
+  translate: 0%;
+  display: flex;
+  overflow:scroll;
+  padding: 0;
+}
+.card {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafbfd20;
+  border-radius: 3vh;
+  border: none;
+  transition: ease all 0.3s;
+  margin: 0 5vw;
+  min-width: 60vw;
+  max-width: 50vh;
+  padding: 2vh;
+  margin-top: 10%;
+  
+}
+.card:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.card .calories {
+  left: 5vw;
+  top: 1vh;
+  cursor: pointer;
+  vertical-align: middle;
+}
+ .card .calories .icon {
+  vertical-align: middle;
+}
+.card .calories .icon svg {
+  width: 20vw;
+  height: 20px;
+}
+.card .calories .text {
+  font-size: 2vh;
+  color: #aaa;
+  line-height: 2rem;
+  vertical-align: middle;
+}
+.card-img-top {
+  pointer-events: none;
+  width: 20vh;
+  margin: 3vh auto;
+  display: block;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 8px solid white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1), 5px 3px 15px #f7e3ce;
+}
+.card .card-body {
+  padding: 0 10px;
+}
+ .card .card-body .card-title {
+  color: #efefef;
+  font-weight: 200;
+  font-size: 3vh;
+  margin: 0;
+}
+.card .card-body .card-text {
+  margin-top: 5px;
+  color: #aaa;
+  font-size: 2vh;
+  font-weight: 200;
+
+}
+.card .card-body .card-price {
+  margin-top: 5px;
+  color: #ffffff;
+  font-size: 3vh;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.card .card-body .btn {
+  float: right;
+  padding: 0;
+  height: 5vh;
+  width: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 2vh;
+  line-height: 5vh;
+  border-radius: 100%;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.bestsellers{
+  display: flex;
+}
+.navbar{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 86%;
+  border-style: solid;
+  background: #efefef90 ;
+  border: 10px;
+  border-radius: 10vh;
+  height: 10%;
+  width: 90%;
+  max-width: 50vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  z-index: 4;
+}
+.navbar-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding-inline: 3%;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 100%;
+  flex:none;
+  justify-content: center;
+  opacity: 1;
+}
+.navbar-item img{
+  max-width: 70%;
+  max-height: 70%;
+}
+.navbar-gradient{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 80%;
+  border-style: solid;
+  background: linear-gradient( rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  /* background-image: linear-gradient(white,black) ; */
+  opacity: 0.7;
+  border: 10px;
+  height: 20%;
+  width: 100%;
+  margin-left: 20%;
+  margin-right: 20%;
+  z-index: 1;
+}
+.input-box{
+  width: 70%;
+  max-width: 200px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 4%;
+  margin-top:20%;
+  margin:10%;
+  font: inherit;
+  max-width: 800px;
+  background-color:  	#efefef;
+  opacity:0.7
+}
+.input-box:focus{
+  opacity: 1;
+}
+.next-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  border: 0px;
+  border-radius: 25vh;
+  padding: 4%;
+  font: inherit;
+  max-width: 800px;
+  margin:1rem;
+  cursor: pointer;
+  background-color:  	#efefef;
+  opacity:0.7
+}
+.next-button:hover{
+  border:32px;
+  border-radius:#212121;
+  opacity:1 
+}
+.or-line{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line{
+  width: 20vw;
+  margin-top: 3vh;
+  height: 0.1vh;
+  background-color: white;
+}
+.or-line p{
+  padding-inline: 3vw;
+  transform: translateY(1vh);
+}
+.popcorn-img{
+  height: 15%;
+  margin-block: 10vh;
+  transform: translateY(0vh);
+}
+.location-icon{
+  height: 15%;
+}
+.topbar{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  top: 0%;
+  border-style: solid;
+  background: #efefef20;
+  border: 10px;
+  height: 6vh;
+  width: 100%;
+  max-width: 50vh;
+  z-index: 3;
+}
+.res-img {
+  pointer-events: none;
+  width: 15vh;
+  margin: 3vh auto;
+  display: block;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 2px solid #efefef40;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1), 5px 3px 15px #f7e3ce20;
+}
+span{
+  color:#efefef
+}
+.cart-indicator{
+  width: 1.5vh;
+  height: 1.5vh;
+  border-radius: 100%;
+  background-color: red;
+  transform: translateY(-1.7vh);
+  translate: -1vh;
+}

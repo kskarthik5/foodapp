@@ -1,0 +1,210 @@
+[
+    {
+        "McDonalds": {
+            "img": "https://cdn.siasat.com/wp-content/uploads/2019/08/MCD.jpg",
+            "food": [
+                {
+                    "_id": "",
+                    "id": 1,
+                    "title": "Peri Peri fries",
+                    "price": 120,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/periperifries.jpg",
+                    "desc": "Peri Peri fries are fabulous. Crispy fries, sprinkled with a peri peri seasoning.",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 2,
+                    "title": "Spicy Paneer Burger",
+                    "price": 200,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/spicypaneerburger.jpg",
+                    "desc": "Smear some mustard and then place lettuce leaf. Place the paneer patty, slices of tomato, onions, gherkins and a generous spoon of our smoked mayonnaise, pepper powder, a cheese slice and cover it with the top of the burger bun",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 3,
+                    "title": "Chicken Burger",
+                    "price": 250,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/chicken_burger.jpg",
+                    "desc": "A huge single or triple burger with all the fixings, cheese, lettuce, tomato, onions and special sauce or mayonnaise!",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 4,
+                    "title": "Coca Cola",
+                    "price": 40,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/coca-cola.jpg",
+                    "desc": "Coca-Cola is a carbonated, sweetened soft drink and is the world's best-selling drink. A popular nickname for Coca-Cola is Coke",
+                    "type": "beverage"
+                },
+                {
+                    "_id": "",
+                    "id": 5,
+                    "title": "Sprite",
+                    "price": 40,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/spirte.jpg",
+                    "desc": "Crisp, refreshing and clean-tasting, Sprite is a lemon and lime-flavoured soft drink",
+                    "type": "beverage"
+                }
+            ]
+        }
+    },
+    {
+        "kfc": {
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8S2bEnHkjYLGe1OoSZQ1KwR4DCDrV8yE5RY-1knmM0bhPExUlbwt-MQnkYuiOJ0Z2Qcs&usqp=CAU",
+            "food": [
+                {
+                    "_id": "",
+                    "id": 1,
+                    "title": "Chicken Popcorn ",
+                    "price": 150,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/chickenpopcorn.jpg",
+                    "desc": "Signature bite-sized boneless chicken, with special spices",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 2,
+                    "title": "Chicken Zinger",
+                    "price": 150,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/chickenzinger.jpg",
+                    "desc": "Signature burger made with a crunchy chicken fillet, veggies & a delicious mayo sauce",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 3,
+                    "title": "Veg Zinger",
+                    "price": 130,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/veg zinger.jpg",
+                    "desc": "Signature veg burger with crispy patties, veggies & a tangy sauce",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 4,
+                    "title": "Rice Bowl",
+                    "price": 160,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/ricebowl.jpg",
+                    "desc": "Large portions of Biryani rice served with Chicken Popcorn & 2 Gravies",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 5,
+                    "title": "Chicken Strips",
+                    "price": 200,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/chickenstrips.png",
+                    "desc": "A chicken strip is a thin strip of boneless chicken. The chicken strip is spiced with peri peri spice mix",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 6,
+                    "title": "Pepsi",
+                    "price": 40,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/pepsi.jpg",
+                    "desc": "Pepsi is a carbonated soft drink manufactured by PepsiCo",
+                    "type": "beverage"
+                },
+                {
+                    "_id": "",
+                    "id": 7,
+                    "title": "7up",
+                    "price": 40,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/7up.jpg",
+                    "desc": "7 Up is an American brand of lemon-lime-flavored non-caffeinated soft drink",
+                    "type": "beverage"
+                }
+            ]
+        }
+    },
+    {
+        "theatre": {
+            "img": "https://media.glassdoor.com/sqll/1165565/park-square-theatre-squarelogo-1583843602403.png",
+            "food": [
+                {
+                    "_id": "",
+                    "id": 1,
+                    "title": "Plain Popcorn",
+                    "price": 100,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/plainpopcorn.png",
+                    "desc": "Plain popcorn is a 100% whole-grain, plant-based snack filled with fiber",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 2,
+                    "title": "Fries",
+                    "price": 100,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/fries.jpg",
+                    "desc": "These are deep-fried, very thin, salted slices of potato that are usually served at room temperature",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 3,
+                    "title": "Nacho cheese",
+                    "price": 250,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/nachocheese.png",
+                    "desc": "Nachos are a Mexican food consisting of fried tortilla chips or totopos covered with melted cheese or cheese sauce",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 4,
+                    "title": "Caramel Popcorn",
+                    "price": 200,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/caramel_popcorn.jpg",
+                    "desc": "Caramel corn is a confection made of popcorn coated with a sugar or molasses based caramel candy",
+                    "type": "food"
+                },
+                {
+                    "_id": "",
+                    "id": 5,
+                    "title": "Cheese Popcorn",
+                    "price": 150,
+                    "__v": 0,
+                    "inStock": 5,
+                    "photo": "/assets/img/cheese_popcorn.webp",
+                    "desc": "Freshly popped corn, cheese and herbs tossed in together makes a surprisingly tasty snack",
+                    "type": "food"
+                }
+            ]
+        }
+    }
+]
