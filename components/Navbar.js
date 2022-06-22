@@ -25,12 +25,15 @@ const Navbar = () => {
                                 <img src='https://img.icons8.com/ios-glyphs/344/shopping-cart-loaded.png'></img>
                                 {(cart.length>0)?<div className='cart-indicator'></div>:''}
                             </div>
-                            <div className='navbar-item'>
+                            <div className='navbar-item' onClick={() => {
+                                window.location.href='/login'
+                            }}>
                                 <img src='https://img.icons8.com/ios-glyphs/344/test-account.png'></img>
                             </div>
                             <div className='navbar-item' onClick={() => {
+                                window.location.href='/theatrepicker'
                             }}>
-                                <img src='https://img.icons8.com/ios-filled/344/chat--v1.png'></img>                     
+                                <img src='https://img.icons8.com/material/344/marker--v1.png'></img>                     
                             </div>
                         </div>
                         <div className='navbar-gradient'></div>

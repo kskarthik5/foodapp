@@ -21,11 +21,10 @@ const Login = () => {
             <h3 style={{ transform: 'translateY(0vh)', color: 'white' }}>Login using Mobile</h3>
             <input className='input-box' placeholder='Enter your mobile number' ref={mn}></input>
             <button className='next-button' type='submit' onClick={() => {
-                sendOtp(mn.current.value)
             }}>Get OTP</button>
             <input className='input-box' placeholder='Enter OTP' ref={mn}></input>
             <button className='next-button' type='submit' onClick={() => {
-                window.location.href = '/theatrepicker'
+                window.location.href = '/'
             }}>Login</button>
         </>
 

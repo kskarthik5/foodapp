@@ -35,7 +35,7 @@ body {
   width: 100%;
   min-height: 100vh;
   padding-bottom: 20vh;
-  background: linear-gradient( rgba(199, 10, 10, 1) 0%, rgba(0, 0, 0, 1) 100%)
+  background: linear-gradient( rgba(199, 10, 10, 1) 0%, rgba(96, 0, 0, 1) 100%)
 }
 h3 {
   padding: 0;
@@ -320,6 +320,11 @@ h2 {
 }
 span{
   color:#efefef
+}
+.status-text{
+  margin-top: 2vh;
+  font-size: 2.5vh;
+  font-family: inherit;
 }
 .cart-indicator{
   width: 1.5vh;
