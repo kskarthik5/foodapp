@@ -24,7 +24,7 @@ const Cart = ({ desc }) => {
 
                         <img className='card-img-top' style={(click) ? select : {}} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTacXA1HPkLa792u1RiGjpjNi2iiTGeXf0Vsw&usqp=CAU'></img>
                     </div> : ''}
-                    {(cart.length > 0) ? <button className='next-button' onClick={() => { window.location.href='#';setPage(confirmed) }}>Checkout</button> : ''}
+                    {(cart.length > 0) ? <button className='next-button' onClick={() => { window.location.href='#';addToCart([]);setPage(confirmed) }}>Checkout</button> : ''}
 
                 </div>)
                 }
