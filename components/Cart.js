@@ -31,7 +31,7 @@ const Cart = ({ desc }) => {
             </AddToCartContext.Consumer>
         }
     </CartContext.Consumer>)
-    const confirmed=(<div className='container'>
+    const confirmed=(<div style={{display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column'}}>
         <h3>Your order has been placed successfully</h3>
         <img className='card-img-top' style={!(click) ? select : {}} src='https://cdn-icons-png.flaticon.com/512/1478/1478873.png'></img>   
         <span className='status-text'>OrderID: {total*3423}</span>

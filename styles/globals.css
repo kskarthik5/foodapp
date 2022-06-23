@@ -246,9 +246,10 @@ h2 {
   font: inherit;
   max-width: 800px;
   background-color:  	#efefef;
-  opacity:0.7
+  opacity:0.5
 }
 .input-box:focus{
+  outline: none;
   opacity: 1;
 }
 .next-button{
@@ -333,4 +334,16 @@ span{
   background-color: red;
   transform: translateY(-1.7vh);
   translate: -1vh;
+}
+.search-dropdown{
+  background-color: #efefef20;
+  width: 100%;
+  height: fit-content;
+  width: calc(100% + 40px);
+  width: 100%;
+  translate: 0%;
+  display: flex;
+  overflow:scroll;
+  padding: 0;
+  padding-bottom: 5vh;
 }
