@@ -24,7 +24,7 @@ const Login = () => {
             }}>Get OTP</button>
             <input className='input-box' placeholder='Enter OTP' ref={mn}></input>
             <button className='next-button' type='submit' onClick={() => {
-                window.location.href = '/'
+                window.location.href = '/theatrepicker'
             }}>Login</button>
         </>
 
