@@ -22,7 +22,7 @@ const Cart = ({ desc }) => {
                     {(cart.length > 0) ? <div className='products-wrapper' onClick={() => { setClick(!(click)) }}>
                         <img className='card-img-top' style={!(click) ? select : {}} src='https://i.imgur.com/k6buDeX.png'></img>
 
-                        <img className='card-img-top' style={(click) ? select : {}} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTacXA1HPkLa792u1RiGjpjNi2iiTGeXf0Vsw&usqp=CAU'></img>
+                        <img className='card-img-top' style={(click) ? select : {}} src='https://i.imgur.com/oWbwlPy.png'></img>
                     </div> : ''}
                     {(cart.length > 0) ? <button className='next-button' onClick={() => { window.location.href='#';addToCart([]);setPage(confirmed) }}>Checkout</button> : ''}
 
